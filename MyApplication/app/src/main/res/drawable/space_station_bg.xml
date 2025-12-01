@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 占位符：实际使用时需要将 ConstraintLayoutpng 图片文件
+     重命名为 space_station_bg.png 并放到 drawable 文件夹中 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#F0F0F0"/>
+</shape>

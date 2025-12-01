@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+<LinearLayout
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android 布局实验"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择一个布局进行测试："
+        android:textSize="16sp"
+        android:textColor="#666666"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="实验1：LinearLayout (4x4网格)"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#FF5722"/>
+
+    <Button
+        android:id="@+id/btnTableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="实验2：TableLayout (菜单界面)"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#673AB7"/>
+
+    <Button
+        android:id="@+id/btnConstraintCalculator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="实验3：ConstraintLayout (计算器)"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#009688"/>
+
+    <Button
+        android:id="@+id/btnSpaceStation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="实验4：ConstraintLayout (太空站)"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#4CAF50"/>
+
+    <!-- 实验三按钮 -->
+    <Button
+        android:id="@+id/btnAnimalList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="实验5：ListView (动物列表)"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#2196F3"/>
+
+    <Button
+        android:id="@+id/btnAlertDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="实验6：AlertDialog (登录对话框)"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#FF9800"/>
+
+    <Button
+        android:id="@+id/btnMenuTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="实验7：XML菜单"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#795548"/>
+
+    <Button
+        android:id="@+id/btnActionMode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="实验8：ActionMode上下文菜单"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:backgroundTint="#607D8B"/>
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 太空站界面专用颜色 -->
+    <color name="space_green">#4CAF50</color>
+    <color name="space_orange">#FF9800</color>
+    <color name="space_white">#EEEEEE</color>
+    <color name="space_gray">#37474F</color>
+    <color name="space_blue_dark">#263238</color>
+</resources>
